@@ -1,0 +1,18 @@
+In Unix/Linux operating systems, numeric values are used to represent permissions in the chmod command, where each character corresponds to one of the following permissions:
+r (read): Read
+w (write): Write
+x (execute): Execute (for executable files only)
+
+The conversion is as follows:
+r = 4
+w = 2
+x = 1
+
+To calculate the total permissions for a group, you add up the numbers corresponding to each character. For example:
+rwx = 4 + 2 + 1 = 7
+rw- = 4 + 2 = 6
+r-x = 4 + 1 = 5
+r-- = 4
+-wx = 2 + 1 = 3
+--x = 1
+--- = 0
