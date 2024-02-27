@@ -1,0 +1,13 @@
+find . -type f \( -name '*~' -o -name '#*#' \) -exec rm -f {} \; -print
+
+Here's what this command does:
+
+find .: Start the search from the current directory.
+-type f: Only consider files, not directories.
+\( -name '*~' -o -name '#*#' \): Match files ending with ~ or files starting and ending with #.
+-exec rm -f {} \;: Execute rm -f command on each matched file to delete it. {} is a placeholder for the file name.
+-print: Print the path of each file deleted.
+Make sure to give execute permission to the clean file before running it. You can do so using the command:
+
+chmod +x clean
+

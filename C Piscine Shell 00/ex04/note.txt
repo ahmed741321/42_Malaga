@@ -1,0 +1,15 @@
+To accomplish this task, you can use the ls command with specific options to list files and directories in the current directory by order of modification date, excluding hidden files and directories. Here's the command you can use and place in the "midLS" file:
+
+bash
+
+ls -ltd --ignore='.*' */
+
+Explanation of the options used:
+
+    -l: Use a long listing format.
+    -t: Sort by modification time, newest first.
+    -d: Directories are listed as plain files (not searched recursively).
+    --ignore='.*': Ignore hidden files and directories (those starting with a dot).
+    */: Match only directories and append a slash to their names.
+
+Once you've added this command to the "midLS" file, you can execute it in your terminal to list the files and directories in your current directory, as per the requirements specified. Make sure to execute it in the correct directory where you want to list the files and directories.
