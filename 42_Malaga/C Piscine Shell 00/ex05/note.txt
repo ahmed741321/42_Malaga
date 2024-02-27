@@ -1,0 +1,9 @@
+"git log --pretty=format:"%H" -n 5":
+
+    git log: This part refers to the main Git command used to display the commit history in the repository.
+
+    --pretty=format:"%H": This part specifies the format in which the log should be displayed. In this case, %H means that we want to display only the commit ID.
+
+    -n 5: This part specifies the number of commits to be displayed. In this case, we want to display only the last 5 commits.
+
+So, the command git log --pretty=format:"%H" -n 5 means "Display the IDs of the last 5 commits in the commit history".

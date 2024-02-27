@@ -1,0 +1,6 @@
+This script utilizes the git ls-files command with the --ignored option to display a list of all files ignored by your Git repository. The git ls-files command is used to show a list of files tracked by Git in the repository. The --ignored option adds to the list any files that are ignored by Git and are included in the .gitignore file.
+
+
+هذا السكربت يستخدم أمر "git ls-files" مع الخيار "--ignored" لعرض قائمة بجميع الملفات التي يتم تجاهلها من قبل مستودع Git الخاص بك. الأمر "git ls-files" يُستخدم لعرض قائمة بالملفات المُتتبعة بواسطة Git في المستودع. أما الخيار "--ignored" فيضيف إلى القائمة أيضًا الملفات التي يتم تجاهلها من قبل Git والتي يتم تضمينها في ملف gitignore.
+
+باختصار، السكربت يعرض لك قائمة بجميع الملفات التي تم تجاهلها من قبل Git وفقاً لمحتويات ملف gitignore في مستودعك.

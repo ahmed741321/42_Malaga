@@ -1,0 +1,5 @@
+1- touch: This command is used to create an empty file. When used with a filename, it creates a new file with that name, or updates the last modification timestamp of the file to the current time if the file already exists.
+
+2- ln: This command is used to create a link between files, either a symbolic link or a hard link. A symbolic link is similar to a shortcut in Windows, it points to another file by its path, while a hard link is another name for the same file on the hard drive.
+
+3-mkdir: This command is used to create a new directory. When used with a directory name, it creates a new directory with that name.
